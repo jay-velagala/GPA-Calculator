@@ -1,0 +1,56 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #aaf;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+input[type="number"],
+input[type="text"], /* Add this line for grade input */
+button {
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #83e345;
+    color: black;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    margin: 0 auto; /* Center the button horizontally */
+    display: block; /* Ensure it takes up the full width */
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.subject {
+    border: 1px solid #000;
+    padding: 25px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    height: 120px; /* Set a fixed height for consistent box lengths */
+}
